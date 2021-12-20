@@ -20,7 +20,7 @@ while also displaying my past work.
 - THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Deployed Application Link and Screenshot
-- https://jiryeah.github.io/Jiryeah-Portfolio/
+- https://jiryeah.github.io/My-Journey/
 
 -
 
