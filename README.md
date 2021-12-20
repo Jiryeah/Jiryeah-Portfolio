@@ -21,8 +21,11 @@ while also displaying my past work.
 
 ### Deployed Application Link and Screenshot
 - https://jiryeah.github.io/My-Journey/
+- <img width="1440" alt="Screen Shot 2021-12-19 at 11 47 23 PM" src="https://user-images.githubusercontent.com/92201576/146718049-72a2b8ab-9b1a-42e7-aef6-dde4dfe5e7e8.png">
 
--
+### Technologies Used
+- HTML
+- CSS
 
 ### Contributors 
-- Faissal Shabani - https://github.com/Jiryeah
+Faissal Shabani - https://github.com/Jiryeah
