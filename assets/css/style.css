@@ -1,7 +1,6 @@
 :root {
-  --primary-color:rgb(30, 35, 99);
-  --secondary-color:silver;
-  --first-background: aliceblue;
+  --primary-color:rgb(160, 43, 43);
+  --first-background: rgba(48, 34, 34, 0.678);
   --second-background:rgb(255, 255, 255);
 }
 
@@ -31,7 +30,6 @@ header h1 {
   font-weight:lighter;
   font-style: italic;
   font-size: 30px;
-  color: var(--secondary-color);
 }
 
 header a {
@@ -84,6 +82,7 @@ section {
 .hero {
   background-image: url(../images/wallpaper\ 2.jpeg);
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -112,7 +111,9 @@ section {
 #about-me-text {
   padding-left: 50px;
   text-align: center;
-  border-left: 4px solid  rgb(3, 0, 0);
+  border-top: 4px solid rgb(3, 0, 0);
+  border-radius: 10px;
+  color: azure;
 }
 /* About Me Section Style End */
 /* Work Section Style Start */
@@ -123,9 +124,14 @@ section {
   justify-content: space-around;
 }
 
+.work-container {
+  border-top: 4px solid var(--first-background);
+  border-radius: 5px;
+}
+
 .screenshot {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   justify-content: space-between;
   max-width: 100%;
   margin: 10px auto;
