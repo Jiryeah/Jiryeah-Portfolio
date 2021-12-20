@@ -142,9 +142,9 @@ footer h4 {
 .section-title h2 {
   font-size: 45px;
   writing-mode: vertical-lr;
-  text-orientation: upright;
+  text-orientation: sideways-right;
   color: var(--accents);
-  letter-spacing: -20px;
+  /*letter-spacing: -20px;*/
 }
 
 .content {
