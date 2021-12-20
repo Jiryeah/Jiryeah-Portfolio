@@ -1,4 +1,4 @@
-# Jiryeah's Portfolio
+# Portfolio Showcasing my Journey
 
 ## Summary
 - This web application will house concise information about me, Faissal Shabani, 
