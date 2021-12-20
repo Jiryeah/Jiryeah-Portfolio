@@ -1,17 +1,15 @@
 :root {
-  --primary-color:rgb(160, 43, 43);
-  --first-background: rgba(48, 34, 34, 0.678);
-  --second-background:rgb(255, 255, 255);
+  --main-background:rgba(215,206,199,1);
+  --main-text: rgba(86,86,86,1);
+  --accents:rgba(118,50,63,1);
+  --secondary-background: rgba(192,159,128,1);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  color: var(--main-text);
 }
 
 header {
@@ -19,7 +17,6 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 20px 35px;
-  text-shadow: 0 0 12px rgba(255, 255, 255, 1.0);
   top:0;
   background-size: cover;
   background-attachment: fixed;
@@ -34,7 +31,6 @@ header h1 {
 
 header a {
   text-decoration: none;
-  color: var(--second-background);
 }
 
 header nav {
@@ -64,34 +60,36 @@ header nav ul li a:hover {
 }
 
 footer {
-  background: var(--primary-color);
+  background: var(--main-background);
   width: 100%;
   padding-bottom: 20px;
 }
 
 footer h4 {
-  color: var(--second-background);
+  color: var(--secondary-background);
   text-align: center;
-}
-
-section {
-  padding: 50px;
 }
 
 /* Hero Section Style Start */
 .hero {
-  background-image: url(../images/wallpaper\ 2.jpeg);
+  background-color: var(--secondary-background);
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  justify-content: right;
   background-attachment: fixed;
-  background-position: 100%;
-  height: 150px;
+  height: 230px;
+  padding: 10px 10px;
+}
+
+.hero h1 {
+  position: relative;
+  margin-top: 150px;
+  font-size: 55px;
 }
 
 .name {
-  display: inline-block;
+  color: var(--accents);
 }
 /* Hero Section Style End */
 
@@ -100,19 +98,24 @@ section {
 #about-me {
   line-height: 1.5;
   width: 100%;
-  margin: 2px auto;
+  margin: 10px;
+  border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: var(--first-background);
+  background-color: var(--main-background);
 }
 
 #about-me-text {
-  padding-left: 50px;
-  text-align: center;
-  border-top: 4px solid rgb(3, 0, 0);
+  border-left: 3px solid var(--secondary-background);
+  padding-left: 15px;
+}
+
+
+.my-image {
+  max-height: 600px;
   border-radius: 10px;
-  color: azure;
+  margin-left: 53px;
 }
 /* About Me Section Style End */
 /* Work Section Style Start */
@@ -137,8 +140,14 @@ section {
 }
 .section-title h2 {
   font-size: 55px;
-  color: var(--primary-color);
-  text-align: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: var(--accents);
+  letter-spacing: -20px;
+}
+
+.section-title p {
+  font-size: 25px;
 }
 
 .content {
@@ -158,3 +167,8 @@ section {
   background-color: var(--first-background);
 }
 /* Contact End */
+
+.flex-row {
+  display: flex;
+  flex: 1;
+}

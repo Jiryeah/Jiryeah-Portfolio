@@ -3,15 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Staatliches&family=Teko:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Jiryeah's History</title>
   </head>
   <!-- Body of the Web Application -->
   <body>
-    <header class="hero">
-      <div class="name">
+    <header>
+      <div>
         <h1>
-          <a href="/">Faissal Shabani</a>
+          <a href="/">Ji<span class="name">rye</span>ah</a>
         </h1>
       </div>
       <nav class="nav">
@@ -28,36 +31,41 @@
         </ul>
       </nav>
     </header>
+
+    <section class="hero">
+      <h1><strong>The</strong> Journey</h1>
+    </section>
     
     <!--  About Me Section Start -->
     <main class="content">
       <section id="about-me">
-        <div class="section-title">
-          <h2>About Me</h2>
-        </div>
-        <div id="about-me-text">
-          <p>
-            Hello! My name is Faissal Shabani and welcome to my portfolio. I'll assume that my name has you wondering
-            where I might come from, so I'll assist you with that. I was born in the Democratic Republic of Congo, formlery Zaire,
-            and I came to the states as a refugee due to the Genocide of '94 and the First and Second Congo wars.
-          </p>
-          <br/>
-          <p>
-            My name comes from a king in Saudia Arabia who built and named the hospital that I was born in. Coincidentally, 
+        <div class="section-title flex-row">
+          <h2>
+            About Me
+          </h2>
+          <p id="about-me-text">
+            Hello! My name is Faissal Shabani and welcome to my portfolio. I'll assume that my name has you wondering where 
+            I come from, so I'll assist you with that. I was born in the Democratic Republic of Congo, formerly Zaire, and 
+            came to the states as a refugee due to the Rwandan Genocide of '94 and the First and Second Congo wars.
+          </br>
+            My name comes from a Saudia Arabian king who built, and named, the hospital that I was born in. Coincidentally, 
             the name means "the stubborn one"; yes, I am extremely stubborn. Now, my love for technology mixed with a ferocious 
-            sense of sturbbornes has lead me to fall in love with programming. Programming allows me to create and use my 
-            persuit of perfection for a meaningful cause. Please allow this portfolio to illustrate some of my work and the passion 
-            that I have for development. Cheers!
+            sense of stubbornness has led me to fall in love with programming. I’ve found that programming allows me to create 
+            and use my pursuit of perfection for a meaningful cause. Please allow this portfolio to illustrate some of my work 
+            and the passion that I have for development. Cheers!
           </p>
+        </div>
+        <div class="flex-row">
+          <img class="my-image" src="./assets/images/Selfie-new.png" alt="photo of me smiling like I am on top of the world" />
         </div>
       </section>
       <!-- About Me Section End -->
       <!-- Work Section -->
       <section id="work">
-        <div class="section-title">
-          <h2>Work</h2>
+        <div class="section-title flex-row">
+          <h2 class="section-title">Work</h2>
         </div>
-        <div class="work-container">
+        <article class="work-container flex-row">
           <div class="featured-work">
             <a href="https://jennyk1989.github.io/project-team/" target="_blank">
               <h3 class="work-name">Project 1</h3>
@@ -82,12 +90,12 @@
               <img class="screenshot" id="robot-gladiators" src="./assets/images/Robot-Gladiators.png" alt="screenshot of working Robot Gladiators MVP" />
             </a>
           </div>
-        </div>
+        </article>
       </section>
       <!-- End of Work Section -->
       <!-- Contact Me Section -->
       <section id="contact-me">
-        <div class="section-title">
+        <div class="section-title flex-row">
           <h2>Contact Me</h2>
           <address>
             P: (210) PRO-GRAM <br/>
