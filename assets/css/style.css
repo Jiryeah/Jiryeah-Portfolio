@@ -118,27 +118,7 @@ footer h4 {
   margin-left: 140px;
   width: 600px;
 }
-/* About Me Section Style End */
-/* Work Section Style Start */
-#work {
-  line-height: 1.5;
-  width: 100%;
-  margin: 2px auto;
-  justify-content: space-around;
-}
 
-.work-container {
-  border-top: 4px solid var(--first-background);
-  border-radius: 5px;
-}
-
-.screenshot {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 100%;
-  margin: 10px auto;
-}
 .section-title h2 {
   font-size: 45px;
   writing-mode: vertical-lr;
@@ -146,11 +126,15 @@ footer h4 {
   color: var(--accents);
   letter-spacing: -20px;
 }
+/* About me section End */
+/* Work Carousel Start */
+.main-gallery {
 
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+}
+
+.gallery-cell {
+  width: 33%;
+  
 }
 /* Work Section End */
 
