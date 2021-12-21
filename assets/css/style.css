@@ -80,6 +80,7 @@ footer h4 {
   background-attachment: fixed;
   height: 230px;
   padding: 10px 10px;
+  border-radius: 10px;
 }
 
 .hero h1 {
@@ -97,7 +98,6 @@ footer h4 {
 /* About Me Section Style Start */
 #about-me {
   line-height: 1.5;
-  width: 100%;
   margin: 10px;
   border-radius: 10px;
   display: flex;
